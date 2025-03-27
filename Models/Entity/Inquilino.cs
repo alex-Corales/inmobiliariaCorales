@@ -14,6 +14,5 @@ namespace inmobiliariaCorales.Models
         public string? Garantia { get; set; }
         public string? NombreGarante { get; set; }
         public string? TelefonoGarante { get; set; }
-        public Inmueble? Inmueble { get; set; }
     }
 }

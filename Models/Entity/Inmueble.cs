@@ -13,6 +13,7 @@ namespace inmobiliariaCorales.Models.Model
         public bool Disponible { get; set; }
         public DateTime FechaConstruccion { get; set; }
         public string? Descripcion { get; set; }
+        public int PropietarioId { get; set; }
         public Propietario? Propietario { get; set; }
     }
 }

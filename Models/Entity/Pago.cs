@@ -6,6 +6,8 @@ namespace inmobiliariaCorales.Models
         public decimal Monto { get; set; }
         public DateTime FechaPago { get; set; }
         public string? MetodoPago { get; set; }
+        public int ContratoId { get; set; }
         public Contrato? Contrato { get; set; }
+        
     }
 }
